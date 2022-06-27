@@ -35,7 +35,14 @@ public class Main {
          */
 
        String fullName2 = "Иванов Семён Семёнович";
-        System.out.println(fullName2.replace('ё', 'е'));
+
+       // System.out.println(fullName2.replace('ё', 'е'));
+
+
+        if (fullName2.contains("ё")) {
+            System.out.println("Ввели неправильную буква 'Ё', нужно заменить на 'Е'!");
+        } else {
+            System.out.println("Все хорошо");
 
     }
-}
+}}
